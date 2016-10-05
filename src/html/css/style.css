@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+/* 1px=0.02rem  1rem=50px */
+html{/*font-size:62.5%;*/font-size:312.5%;min-height:100%;}
+body{font-family:"微软雅黑","Microsoft Yahei",Arial,"Microsoft Yahei UI",SimHei,"\5B8B\4F53",simsun,sans-serif;font-size:0.28rem;color:#333;}
+
+header{background-color:#000;color:#fff;font-size:0.24rem;padding:4px 0;filter:alpha(Opacity=60);opacity: 0.6}
+.my-navbar{border-radius:0;filter:alpha(Opacity=999);opacity: 0.999;margin-bottom:0;z-index:999;}
+.logo{padding:0;}
+.navbar-fixed-height {height:50px;}
+.carousel-inner img {margin:0 auto;}
+
+#why{margin:0.6rem 0;color:#666;}
+#why h2{font-size:0.4rem;text-align:center;letter-spacing:0.02rem;color: #0059b2;}
+#why #why-p{font-size:0.3rem;text-align:center;letter-spacing:0.02rem;color:#999;margin:0.4rem 0 0.8rem 0;}
+#why .col{padding:0.4rem;}
+#why .media-heading{margin:0.1rem 0 0.4rem 0}
+#why .text-muted{color:#999;text-decoration:line-through;}
+
+#study{background-color:#eee;padding:1.2rem 0.4rem;text-align:center;}
+#study img{width:40%;height:40%;}
+#manager{padding:1.2rem 0.4rem;text-align:center;}
+#manager img{width:65%;height:65%;}
+
+.index-text h3{font-size:0.4rem;}
+.index-text p{font-size:0.28rem;}
+
+footer{background-color:#434343;border-top:1px solid #ccc;padding:20px;text-align:center;color:#a6a6a7;}
+
+.categoryImage_bg{background-image:url(../img/bg.jpg);background-size:cover;color:#ccc;}
+.categoryImage_bg h2{font-size:0.52rem;padding-left:0.4rem;}
+.categoryImage_bg h4{font-size:0.3rem;padding-left:0.4rem;}
+
+.child-nav{width:100%;background-color:#252525;height:auto;border-top:0.02rem solid rgba(255, 255, 255, 0.15);position:fixed;margin-top:0.02rem;z-index:998;}
+.child-nav .container ul{margin:0;padding:0;}
+.child-nav .container ul li{display: inline-block;}
+.child-nav .container ul li a{display:block;padding:0.18rem 0.3rem;color:#9d9d9d;}
+.child-nav .container ul li:first-child a{padding-left:0;}
+.child-nav .container ul li:last-of-type a{padding-right:0;}
+.child-nav .container ul li:not(:last-child) a:after{content: ".";float:right;line-height:100%;color:gray;margin-right:-0.4rem;/*width:0.04rem;height:0.04rem;border-radius:50%;background-color:grey;margin-top:23%;*/}
+.child-nav .container ul li a.active {color:#eee;}
+.child-nav .container ul li a:hover{text-decoration:none;color:#fff;}
+.child-nav .breadcrumb{margin:0;border-radius:0;border-bottom:1px solid #ccc;}
+.bodybg{/*background-image:linear-gradient(to bottom, #252525 0px, #3f3b39 100%);*/padding:20px 0;}
+.left-content,.right-content{background-color:#fff;}
+.left-content h4.list-group-item-heading{margin-bottom:0.2rem;color:#0059b2;line-height:1.4;}
+.left-content .list-group-item-text{margin-bottom:0.2rem;line-height:1.6;color:#333;}
+.left-content .list-group span{color:#aaa;margin-left:0.1rem;}
+
+.left-content .panel-title{font-size:0.4rem;padding-bottom:0.2rem;line-height:1.4;}
+.left-content .text-muted span{color:#aaa;margin-left:0.1rem;}
+.left-content .mycontent{margin-bottom:0.6rem;}
+.left-content .mycontent p{line-height:1.7;font-size:0.32rem;}
+
+.position-postion .thumbnail{padding:0.2rem;}
+.right-content .read{display:block;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;}
+.right-content .well{font-size:0.28rem;letter-spacing:0.019rem;line-height:1.6;}
+
+
+/*没有小于768px，是因为Bootstrap3以移动端优先设计*/
+
+/* 小屏幕（平板，大于等于768px） */
+@media (min-width: 768px) {
+	#navbar-collapse .dropdown:hover > .dropdown-menu{display:block;}
+	.navbar-form-top{margin-top:-90px;}
+	
+	#why h2{font-size:0.52rem;}
+	#why #why-p{font-size:0.32rem;}
+	
+	.index-text{float:left;}
+	.index-image{float:right;}
+	.index-text h3{font-size:0.44rem;}
+	.index-text p{font-size:0.3rem;}
+	
+	.categoryImage_bg h2{font-size:0.6rem;}
+	.categoryImage_bg h4{font-size:0.32rem;}
+
+	.position-postion:first-child{margin-bottom:0.4rem;}
+	.position-postion .thumbnail{margin-bottom:0.16rem;}
+	
+	.left-content .panel-title{font-size:0.45rem;}
+}
+
+
+/* 中等屏幕（桌面显示器，大于等于992px） */
+@media (min-width: 992px) {
+	.navbar-form-top{margin-top: 10px;margin-right:0px;padding:0px;}
+	
+	#why h2{font-size:0.56rem;}
+	#why #why-p{font-size:0.34rem;}
+	
+	.index-text h3{font-size:0.48rem;}
+	.index-text p{font-size:0.32rem;}
+	
+	.categoryImage_bg h2{font-size:0.66rem;}
+	.categoryImage_bg h4{font-size:0.34rem;}	
+	
+	.position-postion:first-child{margin-bottom:0;}
+	.position-postion .thumbnail{padding:0.08rem;}
+}
+
+/* 大屏幕（大桌面显示器，大于等于1200px） */
+@media (min-width: 1200px) {
+	#navbar-collapse .navbar-nav > li > a{padding-left:0.4rem;padding-right:0.4rem;font-size:0.32rem;}
+	#why h2{font-size:0.6rem;}
+	#why #why-p{font-size:0.36rem;}
+	
+	.index-text h3{font-size:0.52rem;}
+	.index-text p{font-size:0.36rem;}
+	
+	.categoryImage_bg h2{font-size:0.72rem;}
+	.categoryImage_bg h4{font-size:0.36rem;}	
+	
+	.position-postion .thumbnail{padding:0.2rem;}
+}
+
+/* 自定义bootstrap超大屏幕（大桌面显示器，大于等于1500px，更改内容页宽度比例） */
+@media (min-width: 1500px) {
+	.bodybg .col-lg-9{width:83.3333%;}
+	.bodybg .col-lg-3{width:16.6667%;}
+}

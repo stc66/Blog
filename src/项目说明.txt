@@ -1,0 +1,30 @@
+﻿
+一、Spring Boot教程
+1、http://412887952-qq-com.iteye.com/category/356333
+2、http://blog.didispace.com/tag/spring-cloud/
+3、http://git.oschina.net/didispace/SpringBoot-Learning/
+4、https://www.gitbook.com/book/qbgbook/spring-boot-reference-guide-zh/details
+5、http://www.jianshu.com/p/c0f5545f8ba3
+6、http://www.jianshu.com/collection/f0cf6eae1754
+7、http://blog.csdn.net/mickjoust/article/details/51657601
+8、http://blog.csdn.net/liaokailin/article/category/6212338
+9、http://blog.csdn.net/linxingliang/article/category/6244067/1
+
+
+二、Bootstrap在线文档
+1、http://v3.bootcss.com/
+2、http://www.runoob.com/bootstrap
+
+三、Shiro
+1、http://blog.csdn.net/catoop/article/details/50520958
+2、http://lihao312.iteye.com/blog/2309788
+3、http://download.csdn.net/detail/q403666704/9520136
+4、http://www.tuicool.com/articles/AbyyUje
+5、http://blog.csdn.net/u013632755/article/details/51485158
+6、http://download.csdn.net/detail/wu560130911/6295521
+
+
+四、Spring Cloud
+1、http://www.oschina.net/news/77492/spring-cloud-book-v1-1-1
+2、https://my.oschina.net/QAAQ/blog/746280
+3、http://www.jianshu.com/p/d49f981cded8

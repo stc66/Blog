@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<thymeleaf th:replace="back/basePath :: head" />
+		<title>后台主页</title>
+		<link rel="stylesheet" href="../../static/back/css/main.css" th:href="@{/back/css/main.css}" />
+	</head>
+
+	<body class="easyui-layout">
+		<div id="header" data-options="region:'north',title:'header',split:true,noheader:true,border:false">
+			<div id="logo"></div>
+			<div id="top-right">
+				<span>当前用户：</span><strong>User</strong><a href="javascript://void(0)" onclick="logout();">[安全退出]</a><a href="javascript://void(0)">[账号设置]</a>
+			</div>
+		</div>
+		
+		<div id="left" data-options="region:'west',title:'导航菜单',split:true">
+			<div class="easyui-accordion" data-options="fit:true,border:false">
+				<div title="产品管理">
+					<ul>
+						<li><a href="javascript://void(0);" link="http://www.baidu.com">类别管理</a></li>
+						<li><a href="javascript://void(0);" link="manager">产品管理</a></li>
+					</ul>
+				</div>
+				<div title="新闻管理">
+					<ul>
+						<li><a href="javascript://void(0);" link="http://www.baidu.com">类别管理</a></li>
+						<li><a href="javascript://void(0);" link="">产品管理</a></li>
+					</ul>					
+				</div>	
+				<div title="公司介绍">
+					
+				</div>	
+				<div title="技术支持">
+					
+				</div>		
+				<div title="图片广告">
+					
+				</div>															
+				<div title="权限管理">
+					<ul>
+						<li><a href="javascript://void(0);" link="http://www.baidu.com">类别管理</a></li>
+						<li><a href="javascript://void(0);" link="admin/permission/addPermission">权限管理</a></li>
+					</ul>
+				</div>
+				<div title="系统设置">
+				
+				</div>
+			</div>			
+		</div>
+		
+		<div id="center" data-options="region:'center'">
+			<div id="tabs" class="easyui-tabs" data-options="fit:true,border:false">
+				<div title="起始页" style="paddin:0 10px;display:block;">
+					欢迎来到后台管理系统！
+				</div>
+			</div>
+		</div>
+
+		<div id="footer" data-options="region:'south',title:'footer',split:true,noheader:true,border:false">
+			&copy;2016-2016 滔天蟹 版权所有
+		</div>				
+		<script type="text/javascript" src="../../static/back/js/main.js" th:src="@{/back/js/main.js}"></script>
+	</body>
+</html>

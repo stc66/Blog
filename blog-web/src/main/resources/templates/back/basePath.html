@@ -1,0 +1,29 @@
+<thymeleaf th:fragment="head" th:remove="tag">	
+	<meta charset="UTF-8">
+	<meta http-equiv="Cache-Control" content="no-transform" />
+	<meta http-equiv="Cache-Control" content="no-siteapp" />
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="author" content="stc66@qq.com" />
+	<meta name="copyright" content="stc" />
+	<meta name="robots" content="index,follow" />
+	<link type="image/x-icon" href="../../static/favicon.ico" rel="stc icon" th:href="@{/favicon.ico}"/>
+	
+	<link rel="stylesheet" href="../../static/back/easyui/themes/default/easyui.css" th:href="@{/back/easyui/themes/default/easyui.css}"/>
+	<link rel="stylesheet" href="../../static/back/easyui/themes/icon.css" th:href="@{/back/easyui/themes/icon.css}"/>	
+	
+	<script type="text/javascript" src="../../static/force/js/jquery.min.js" th:src="@{/force/js/jquery.min.js}"></script>
+	<script type="text/javascript" src="../../static/back/easyui/jquery.easyui.min.js" th:src="@{/back/easyui/jquery.easyui.min.js}"></script>
+	<script type="text/javascript" src=".../../static/back/easyui/locale/easyui-lang-zh_CN.js" th:src="@{/back/easyui/locale/easyui-lang-zh_CN.js}"></script>
+	
+	<!--/*[if lt IE 9]>
+   	 	<script src="../../static/force/js/html5shiv.min.js th:src="@{/force/js/html5shiv.min.js}"/>
+   		<script src="../../static/force/js/respond.min.js" th:src="@{/force/js/respond.min.js}"/>
+	 <![endif]*/-->	
+	 
+	<script th:inline="javascript">
+		var contextRoot = /*[[@{/}]]*/ '';
+	</script>	 
+</thymeleaf>

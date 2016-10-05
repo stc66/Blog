@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<thymeleaf th:replace="back/basePath :: head" />
+		<title>Login </title>
+		<link rel="stylesheet" href="../../static/back/css/login.css" th:href="@{/back/css/login.css}"/>
+	</head>
+
+	<body>
+		<div id=login>
+			<p>管理员账号：<input type="text" id="userName" class="textbox" /></p>
+			<p>管理员密码：<input type="password" id="password" class="textbox" /></p>
+		</div>
+
+		<div id="btn">
+			<a href="javascript://void(0)" class="easyui-linkbutton">登录</a>
+		</div>
+		
+		<script type="text/javascript" src="../../static/back/js/login.js" th:src="@{/back/js/login.js}"></script>	
+	</body>
+</html>

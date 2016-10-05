@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+body{font-family:"微软雅黑","Microsoft Yahei",Arial,"Microsoft Yahei UI",SimHei,"\5B8B\4F53",simsun,sans-serif;font-size:14px;color:#333;}
+
+.textbox{height:20px;padding:0 2px;}
+.dialog-button {text-align:center;}
+a{color:#fff;text-decoration:none;}
+a:hover{text-decoration:underline;}
+
+#header{height:60px;box-sizing:border-box;border-bottom:1px solid #BAD3E1;
+		background-image:filter:progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr='#eff7ff',endColorstr='#a8d6f6');
+		-ms-filter:"progid: DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr='#eff7ff',endColorstr='#a8d6f6')";
+		background-image:-ms-linear-gradient(left,#eff7ff,#a8d6f6);
+		background-image:-moz-linear-gradient(left,#eff7ff,#a8d6f6);
+		background-image:-o-linear-gradient(left,#eff7ff,#a8d6f6);
+		background-image:-webkit-gradient(linear,left top,right top,from(#eff7ff),to(#a8d6f6));
+		background-image:-webkit-linear-gradient(left,#eff7ff,#a8d6f6);
+		background-image:linear-gradient(left,#eff7ff,#a8d6f6);}
+#logo{float:left;width:128px;height:50px;margin-left:20px;background:url(../img/logo-back.png) no-repeat 0 0;}
+#top-right{float:right;margin:12px 20px 0px 0px;padding:6px 20px;background-color:hsla(0,0%,92%,0.3);border-radius:12px;box-shadow:0px 0px 2px hsla(0,0%,60%,0.8)}
+#top-right{color:#5b5b5b;}
+#top-right a{color:#5b5b5b;margin-left:12px}
+#top-right a:hover{text-decoration:none;color:#e7654c;}
+
+#left{width:180px;}
+#left .accordion .accordion-header{background:#e0ecff url("../img/jt01.gif") no-repeat 10px center;padding-left:20px}
+#left .accordion .accordion-header .panel-tool{display:none;}
+#left .accordion .accordion-header-selected{background:#ffe48d url("../img/jt02.gif") no-repeat 7px center;}
+
+#left ul{padding:0;margin:0;list-style:none;}
+#left ul li{background:url(../img/fg01.jpg) no-repeat center bottom;}
+#left ul li a{display:block;color:#333;padding:6px 2px 6px 10px;background:url("../img/jt03.gif") no-repeat 20px center;text-indent:20px}
+#left ul li a:hover{text-decoration:none;color:#e7654c;background-image:url("../img/jt04.gif")}
+#left ul li a.active{color:#e7654c;background-image:url("../img/jt04.gif")}
+
+#center{overflow:hidden;}
+
+#footer{height:35px;line-height:30px;text-align:center;color:#666;background-color:#D2E0F2;border-top:1px solid #BAD3E1;overflow:hidden;}

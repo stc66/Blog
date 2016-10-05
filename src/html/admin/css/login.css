@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+body{font-family:"微软雅黑","Microsoft Yahei",Arial,"Microsoft Yahei UI",SimHei,"\5B8B\4F53",simsun,sans-serif;font-size:14px;color:#333;}
+
+#login{padding-top:6px;}
+p{height:22px;line-height:22px;padding:4px 0 0 25px}
+.textbox{height:22px;padding:0 2px;}
+#btn{text-align:center;}
+.easyui-linkbutton{padding:0 10px;}
